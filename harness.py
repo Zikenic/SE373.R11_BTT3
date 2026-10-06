@@ -1,7 +1,7 @@
 """Safety Harness for Flight Reservation Agent.
 Implements the 4 required harness layers and termination/safety loop detection.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 from __future__ import annotations

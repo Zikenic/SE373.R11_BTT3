@@ -1,6 +1,6 @@
 """CLI Demo runner for Flight Booking Agent with structured, readable terminal output.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 from __future__ import annotations
@@ -22,7 +22,7 @@ from mock_airline import MockAirline
 def print_banner(pattern: str, scenario: str, approval: bool, mode: str):
     print("=" * 70)
     print("  HỆ THỐNG AGENT ĐẶT VÉ MÁY BAY - SE373.R11 (BTVN #3)")
-    print("  Sinh viên: Bùi Văn Khải - MSSV: 24520719")
+    print("  Sinh viên: Bùi Vạn Khải - MSSV: 24520719")
     print(f"  Pattern: {pattern.upper()} | Scenario: {scenario.upper()} | Approval: {approval} | Mode: {mode.upper()}")
     print("=" * 70)
 

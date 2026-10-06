@@ -1,11 +1,17 @@
 """Script to generate the complete university report: 24520719_BuiVanKhai_BTVN3.docx
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 import os
 import shutil
+import sys
 import docx
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8")
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
@@ -204,7 +210,7 @@ def build_full_report():
     r_stu_lbl = p_info.add_run("Sinh viên thực hiện:\n")
     r_stu_lbl.font.bold = True
     r_stu_info = p_info.add_run(
-        "  - Họ và tên: Bùi Văn Khải\n"
+        "  - Họ và tên: Bùi Vạn Khải\n"
         "  - Mã số sinh viên (MSSV): 24520719\n"
         "  - Lớp: SE373.R11\n"
     )
@@ -419,7 +425,7 @@ def build_full_report():
     r.font.bold = True
 
     p = doc.add_paragraph(
-        "Hệ thống hướng đến giải quyết bài toán đặt vé máy bay tự động cho hành khách Bùi Văn Khải (MSSV: 24520719) "
+        "Hệ thống hướng đến giải quyết bài toán đặt vé máy bay tự động cho hành khách Bùi Vạn Khải (MSSV: 24520719) "
         "với chặng bay từ TP.HCM đến Đà Nẵng (SGN → DAD) trong tháng 10/2026. "
         "Hệ thống phải đảm bảo các tiêu chí kiểm thử bắt buộc:\n"
         "• Chuyến bay phải khởi hành trong khoảng từ 01/10/2026 đến 31/10/2026 và không trước ngày tham chiếu (06/10/2026).\n"
@@ -927,8 +933,12 @@ def build_full_report():
     target_path_parent = os.path.join("..", "24520719_BuiVanKhai_BTVN3.docx")
 
     doc.save(target_path_local)
-    shutil.copy2(target_path_local, target_path_parent)
-    print(f"Report generated successfully:\n  - {target_path_local}\n  - {target_path_parent}")
+    print(f"Report generated successfully:\n  - {target_path_local}")
+    try:
+        shutil.copy2(target_path_local, target_path_parent)
+        print(f"  - {target_path_parent}")
+    except PermissionError:
+        print(f"  [Chú ý] Không thể ghi đè {target_path_parent} do tệp đang được mở trong Word/ứng dụng khác.")
 
 
 if __name__ == "__main__":

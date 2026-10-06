@@ -3,7 +3,7 @@ Evaluates ReAct, Plan-then-Execute, and Hybrid across reproducible test scenario
 Collects and dumps results to results/benchmark.json and results/benchmark.jsonl.
 
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 from __future__ import annotations
@@ -120,7 +120,7 @@ def run_benchmark(output_dir: str = "results", mode: str = "deterministic") -> D
 
     print("\n" + "=" * 80)
     print("  KHỞI CHẠY BENCHMARK ĐÁNH GIÁ 3 KIẾN TRÚC AGENT - SE373.R11")
-    print("  Sinh viên: Bùi Văn Khải - MSSV: 24520719")
+    print("  Sinh viên: Bùi Vạn Khải - MSSV: 24520719")
     print(f"  Chế độ: {mode.upper()} | Tổng kịch bản: {len(SCENARIOS)} | Tổng lượt chạy: {len(SCENARIOS) * len(PATTERNS)}")
     print("=" * 80)
 

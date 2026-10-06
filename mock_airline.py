@@ -1,7 +1,7 @@
 """Mock Airline domain and local in-memory booking store.
 Provides deterministic data for testing and benchmarking.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 from __future__ import annotations

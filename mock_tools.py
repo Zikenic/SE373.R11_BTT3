@@ -1,7 +1,7 @@
 """LangChain tools for the mock airline domain.
 Provides tools with explicit names, descriptions, and Pydantic schemas.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 from __future__ import annotations

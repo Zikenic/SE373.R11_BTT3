@@ -1,6 +1,6 @@
 """Run actual LLM evaluation on key scenarios and save results.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 import json

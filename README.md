@@ -2,7 +2,7 @@
 
 * **Môn học:** Kỹ thuật xây dựng hệ thống Agentic AI (SE373.R11)
 * **Khoa:** Công nghệ Phần mềm – Trường Đại học Công nghệ Thông tin (ĐHQG-HCM)
-* **Sinh viên thực hiện:** Bùi Văn Khải
+* **Sinh viên thực hiện:** Bùi Vạn Khải
 * **Mã số sinh viên (MSSV):** 24520719
 * **Thời gian hoàn thành:** Tháng 10/2026
 
@@ -182,7 +182,7 @@ SE373.R11_BTT3/
 
 ## 8. Tác giả & Bản quyền
 
-* Sinh viên thực hiện: **Bùi Văn Khải** – MSSV: **24520719**
+* Sinh viên thực hiện: **Bùi Vạn Khải** – MSSV: **24520719**
 * Giảng viên lý thuyết: TS. Đỗ Trọng Hợp, ThS. Ngô Ngọc Đăng Khoa, ThS. Phạm Hoàng Hải
 * Giảng viên thực hành: Bùi Cao Doanh, Dương Nguyễn Phương Nam, Nguyễn Hiếu Nghĩa, Nguyễn Ngọc Quí, Nguyễn Thị Hoàng Anh, Quan Chí Khánh An
 * Trường Đại học Công nghệ Thông tin – ĐHQG-HCM, 2026.

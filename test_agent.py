@@ -1,6 +1,6 @@
 """Automated Unit Tests for Flight Reservation Agent and Safety Harness.
 SE373.R11 - BTVN #3: Agent đặt vé máy bay bằng LangChain
-Student: Bùi Văn Khải - MSSV: 24520719
+Student: Bùi Vạn Khải - MSSV: 24520719
 """
 
 import sys
