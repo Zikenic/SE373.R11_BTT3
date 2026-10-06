@@ -1,0 +1,44 @@
+[
+  {
+    "pattern": "react",
+    "status": "ExecutionStatus.SUCCESS",
+    "booking_id": "BKG-0001",
+    "flight_id": "VN101",
+    "steps": 4,
+    "tool_calls": 4,
+    "runtime_sec": 32.64,
+    "token_usage": {
+      "prompt_tokens": 8976,
+      "completion_tokens": 401,
+      "total_tokens": 9377
+    }
+  },
+  {
+    "pattern": "plan_execute",
+    "status": "ExecutionStatus.SUCCESS",
+    "booking_id": "BKG-0001",
+    "flight_id": "VN101",
+    "steps": 5,
+    "tool_calls": 5,
+    "runtime_sec": 0.01,
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  },
+  {
+    "pattern": "hybrid",
+    "status": "ExecutionStatus.SUCCESS",
+    "booking_id": "BKG-0001",
+    "flight_id": "VN101",
+    "steps": 4,
+    "tool_calls": 4,
+    "runtime_sec": 0.01,
+    "token_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  }
+]
